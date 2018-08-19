@@ -3,6 +3,7 @@ package net.geoff.ionicinnovations;
 import org.apache.logging.log4j.Logger;
 
 import net.geoff.ionicinnovations.blocks.IonicBlocks;
+import net.geoff.ionicinnovations.fluids.IonicFluids;
 import net.geoff.ionicinnovations.network.NetworkHandler;
 import net.geoff.ionicinnovations.proxy.CommonProxy;
 import net.minecraft.block.Block;
@@ -54,6 +55,7 @@ public class IonicInnovations {
 		@SubscribeEvent
 		public static void registerBlocks(RegistryEvent.Register<Block> event) {
 			IonicBlocks.register(event.getRegistry());
+			IonicFluids.registerFluids();
 		}
 		
 		@SubscribeEvent

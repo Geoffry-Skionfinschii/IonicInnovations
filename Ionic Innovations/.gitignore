@@ -5,3 +5,8 @@ build/
 run/
 /.settings/
 /gradle/
+/.classpath
+/Duskfade Dirt Top.png
+*.launch
+/build.gradle
+/gradlew
