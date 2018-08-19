@@ -3,3 +3,5 @@
 bin/
 build/
 run/
+/.settings/
+/gradle/
