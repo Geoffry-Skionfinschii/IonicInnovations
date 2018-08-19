@@ -1,0 +1,14 @@
+{
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2018-08-18 09:15:04 +1000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2018-08-18 09:15:04 +1000"
+    },
+    "done": false
+  }
+}

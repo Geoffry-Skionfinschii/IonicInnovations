@@ -1,0 +1,5 @@
+.gradle
+*.bat
+bin/
+build/
+run/

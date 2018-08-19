@@ -1,0 +1,16 @@
+[
+{
+  "modid": "gffs",
+  "name": "Geoff's Force Field System",
+  "description": "WIP mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Geoffry"],
+  "credits": "Yes",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

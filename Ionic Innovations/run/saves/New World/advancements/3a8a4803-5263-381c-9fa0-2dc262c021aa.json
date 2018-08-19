@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2018-08-16 22:03:31 +1000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2018-08-16 22:02:04 +1000",
+      "plains": "2018-08-16 22:02:50 +1000"
+    },
+    "done": false
+  }
+}

@@ -1,0 +1,1380 @@
+This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril.This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril.
+
+#################################################
+         ForgeGradle 2.3-SNAPSHOT-ee3e3df        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+                 Powered by MCP                  
+             http://modcoderpack.com             
+     by: Searge, ProfMobius, R4wk, ZeuX          
+     Fesh0r, IngisKahn, bspkrs, LexManos         
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:sourceApiJava UP-TO-DATE
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJavaNote: H:\Minecraft Mods\Ionic Innovations\build\sources\main\java\net\geoff\ionicinnovations\blocks\field\BlockField.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:processResources UP-TO-DATE
+:classes
+:jar
+:getVersionJson
+:extractNatives SKIPPED
+:extractUserdev UP-TO-DATE
+:getAssetIndex UP-TO-DATE
+:getAssets
+Current status: 373/1305   28%
+Current status: 867/1305   66%
+Current status: 1300/1305   99%
+:makeStart
+:runClient
+[10:30:02] [main/INFO] [GradleStart]: Extra: []
+[10:30:02] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Geo/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:30:02] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:30:02] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:30:02] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:30:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:30:02] [main/INFO] [FML]: Forge Mod Loader version 14.23.4.2756 for Minecraft 1.12.2 loading
+[10:30:02] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_151, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_151\jre
+[10:30:02] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[10:30:02] [main/ERROR] [FML]: Full: C:\Users\Geo\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[10:30:02] [main/ERROR] [FML]: Trimmed: c:/users/geo/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[10:30:02] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[10:30:02] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+2018-08-18 10:30:03,012 main WARN Disabling terminal, you're running in an unsupported environment.
+[10:30:03] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[10:30:03] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[10:30:03] [main/INFO] [FML]: Searching H:\Minecraft Mods\Ionic Innovations\run\.\mods for mods
+[10:30:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:30:03] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[10:30:03] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[10:30:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:30:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:30:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:30:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:30:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:30:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:30:03] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[10:30:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:30:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:30:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:30:04] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[10:30:04] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:30:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:30:04] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[10:30:04] [main/INFO] [minecraft/Minecraft]: Setting user: Player484
+[10:30:07] [main/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+[10:30:07] [main/INFO] [minecraft/Minecraft]: LWJGL Version: 2.9.4
+[10:30:08] [main/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_151, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 164134928 bytes (156 MB) / 587726848 bytes (560 MB) up to 1888485376 bytes (1801 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 388.13' Renderer: 'GeForce GTX 1050 Ti/PCIe/SSE2'
+[10:30:09] [main/INFO] [FML]: MinecraftForge v14.23.4.2756 Initialized
+[10:30:09] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[10:30:09] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[10:30:09] [main/INFO] [FML]: Searching H:\Minecraft Mods\Ionic Innovations\run\.\mods for mods
+[10:30:10] [main/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.1.351
+[10:30:11] [main/INFO] [FML]: Forge Mod Loader has identified 12 mods to load
+[10:30:11] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ionicinnovations, codechickenlib, cofhcore, cofhworld, redstoneflux, thermaldynamics, thermalexpansion, thermalfoundation] at CLIENT
+[10:30:11] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ionicinnovations, codechickenlib, cofhcore, cofhworld, redstoneflux, thermaldynamics, thermalexpansion, thermalfoundation] at SERVER
+[10:30:11] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 186773760 nanos
+[10:30:12] [main/INFO] [minecraft/SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Ionic Innovations, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:CoFH World, FMLFileResourcePack:Redstone Flux, FMLFileResourcePack:Thermal Dynamics, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
+[10:30:13] [main/INFO] [FML]: Processing ObjectHolder annotations
+[10:30:13] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[10:30:13] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[10:30:13] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[10:30:13] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[10:30:13] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalfoundation] Starting version check at https://raw.github.com/cofh/version/master/thermalfoundation_update.json
+[10:30:14] [main/INFO] [cofhworld]: Registering default Feature Templates...
+[10:30:14] [main/INFO] [cofhworld]: Registering default World Generators...
+[10:30:14] [main/INFO] [cofhworld]: Verifying or creating base world generation directory...
+[10:30:14] [main/INFO] [cofhworld]: Complete.
+[10:30:15] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalfoundation] Found status: UP_TO_DATE Target: null
+[10:30:15] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhworld] Starting version check at https://raw.github.com/cofh/version/master/cofhworld_update.json
+[10:30:15] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhworld] Found status: UP_TO_DATE Target: null
+[10:30:15] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalexpansion] Starting version check at https://raw.github.com/cofh/version/master/thermalexpansion_update.json
+[10:30:15] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalexpansion] Found status: UP_TO_DATE Target: null
+[10:30:15] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[10:30:16] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
+[10:30:16] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[10:30:16] [main/INFO] [FML]: Applying holder lookups
+[10:30:16] [main/INFO] [FML]: Holder lookups applied
+[10:30:16] [main/INFO] [FML]: Applying holder lookups
+[10:30:16] [main/INFO] [FML]: Holder lookups applied
+[10:30:16] [main/INFO] [FML]: Applying holder lookups
+[10:30:16] [main/INFO] [FML]: Holder lookups applied
+[10:30:16] [main/INFO] [FML]: Applying holder lookups
+[10:30:16] [main/INFO] [FML]: Holder lookups applied
+[10:30:16] [main/INFO] [FML]: Injecting itemstacks
+[10:30:16] [main/INFO] [FML]: Itemstack injection complete
+[10:30:16] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[10:30:16] [Forge Version Check/INFO] [forge.VersionCheck]: [thermaldynamics] Starting version check at https://raw.github.com/cofh/version/master/thermaldynamics_update.json
+[10:30:17] [Forge Version Check/INFO] [forge.VersionCheck]: [thermaldynamics] Found status: UP_TO_DATE Target: null
+[10:30:17] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhcore] Starting version check at https://raw.github.com/cofh/version/master/cofhcore_update.json
+[10:30:17] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhcore] Found status: AHEAD Target: null
+[10:30:18] [Sound Library Loader/INFO] [minecraft/SoundManager]: Starting up SoundSystem...
+[10:30:18] [Thread-5/INFO] [minecraft/SoundManager]: Initializing LWJGL OpenAL
+[10:30:18] [Thread-5/INFO] [minecraft/SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[10:30:18] [Thread-5/INFO] [minecraft/SoundManager]: OpenAL initialized.
+[10:30:18] [Sound Library Loader/INFO] [minecraft/SoundManager]: Sound engine started
+[10:30:21] [main/INFO] [FML]: Max texture size: 16384
+[10:30:22] [main/INFO] [minecraft/TextureMap]: Created: 1024x1024 textures-atlas
+[10:30:23] [main/ERROR] [FML]: Exception loading model for variant ionicinnovations:creative_energy#normal for blockstate "ionicinnovations:creative_energy"
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ionicinnovations:creative_energy#normal with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 21 more
+[10:30:23] [main/ERROR] [FML]: Exception loading blockstate for the variant ionicinnovations:creative_energy#normal: 
+java.lang.Exception: Could not load model definition for variant ionicinnovations:creative_energy
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:269) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model ionicinnovations:blockstates/creative_energy.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 20 more
+Caused by: java.io.FileNotFoundException: ionicinnovations:blockstates/creative_energy.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:104) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 20 more
+[10:30:23] [main/ERROR] [FML]: Exception loading model for variant ionicinnovations:field_manipulator#normal for blockstate "ionicinnovations:field_manipulator"
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ionicinnovations:field_manipulator#normal with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 21 more
+[10:30:23] [main/ERROR] [FML]: Exception loading blockstate for the variant ionicinnovations:field_manipulator#normal: 
+java.lang.Exception: Could not load model definition for variant ionicinnovations:field_manipulator
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:269) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model ionicinnovations:blockstates/field_manipulator.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 20 more
+Caused by: java.io.FileNotFoundException: ionicinnovations:blockstates/field_manipulator.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:104) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 20 more
+[10:30:23] [main/ERROR] [FML]: Exception loading model for variant ionicinnovations:field_manipulator#inventory for item "ionicinnovations:field_manipulator", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ionicinnovations:item/field_manipulator with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.io.FileNotFoundException: ionicinnovations:models/item/field_manipulator.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[10:30:23] [main/ERROR] [FML]: Exception loading model for variant ionicinnovations:field_manipulator#inventory for item "ionicinnovations:field_manipulator", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ionicinnovations:field_manipulator#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[10:30:23] [main/ERROR] [FML]: Exception loading model for variant ionicinnovations:creative_energy#inventory for item "ionicinnovations:creative_energy", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ionicinnovations:item/creative_energy with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.io.FileNotFoundException: ionicinnovations:models/item/creative_energy.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[10:30:23] [main/ERROR] [FML]: Exception loading model for variant ionicinnovations:creative_energy#inventory for item "ionicinnovations:creative_energy", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ionicinnovations:creative_energy#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[10:30:24] [main/INFO] [FML]: Applying holder lookups
+[10:30:24] [main/INFO] [FML]: Holder lookups applied
+[10:30:25] [main/INFO] [FML]: Injecting itemstacks
+[10:30:25] [main/INFO] [FML]: Itemstack injection complete
+[10:30:25] [main/INFO] [cofhcore]: CoFH Core: Load Complete.
+[10:30:25] [main/INFO] [cofhworld]: Accumulating world generation files from: "H:\Minecraft Mods\Ionic Innovations\run\config\cofh\world"
+[10:30:25] [main/INFO] [cofhworld]: Found 4 World Generation files and 0 folders present in "cofh\world".
+[10:30:25] [main/INFO] [cofhworld]: Reading world generation info from: "cofh\world\01_thermalfoundation_ores.json":
+[10:30:25] [main/INFO] [cofhworld]: Reading world generation info from: "cofh\world\02_thermalfoundation_oil.json":
+[10:30:25] [main/INFO] [cofhworld]: Reading world generation info from: "cofh\world\03_thermalfoundation_clathrates.json":
+[10:30:25] [main/INFO] [cofhworld]: CoFH World: Load Complete.
+[10:30:25] [main/INFO] [thermalfoundation]: [Whitelist] Reading established Whitelist from file.
+[10:30:25] [main/INFO] [thermalfoundation]: Thermal Foundation: Load Complete.
+[10:30:25] [main/INFO] [thermalexpansion]: Thermal Expansion: Load Complete.
+[10:30:25] [main/INFO] [thermaldynamics]: Thermal Dynamics: Load Complete.
+[10:30:26] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 12 mods
+[10:30:26] [main/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+[10:30:26] [main/INFO] [mojang/NarratorWindows]: Narrator library for x64 successfully loaded
+[10:30:27] [Realms Notification Availability checker #1/INFO] [mojang/RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[10:30:39] [Server thread/INFO] [minecraft/IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[10:30:39] [Server thread/INFO] [minecraft/IntegratedServer]: Generating keypair
+[10:30:40] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:powercell
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:machine_frame
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:notick_solid_shield_block_opaque
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:shield_block4
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:shield_block3
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:shield_block2
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:invisible_shield_block_opaque
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:shield_block1
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:wire_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:camo_shield_block_opaque
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:shield_template_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:builder
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:invchecker_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:matter_beamer
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:coalgenerator
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:booster
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:item_filter
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ionicinnovation:forcefield
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:notick_camo_shield_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:notick_solid_shield_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:storage_terminal
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:spawner
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:endergenic
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:liquid_monitor
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:block_protector
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:powercell_advanced
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:scanner
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:machine_infuser
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:screen_hitblock
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:solid_shield_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:modular_storage
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:invisible_shield_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:ender_monitor
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:destination_analyzer
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:notick_invisible_shield_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ionicinnovation:creative_energy
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:creative_screen
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:sensor_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:timer_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:sequencer_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:environmental_controller
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:remote_scanner
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:screen
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:digit_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:dialing_device
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:storage_scanner
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:screen_controller
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:logic_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:locator
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:dimensional_shard_ore
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:level_emitter
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:notick_invisible_shield_block_opaque
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:remote_storage
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:notick_camo_shield_block_opaque
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:redstone_receiver_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:simple_dialer
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:redstone_transmitter_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ionicinnovation:field_manipulator
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:machine_base
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:space_chamber_controller
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:composer
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:counter_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:solid_shield_block_opaque
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:rf_monitor
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:security_manager
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:crafter1
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:crafter2
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:crafter3
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:matter_booster
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:projector
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:space_chamber
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:camo_shield_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:pearl_injector
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:support_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:analog_block
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:powercell_creative
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:powercell_simple
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:matter_receiver
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:matter_transmitter
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:elevator
+[10:30:40] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world rftools:relay
+[10:30:40] [Server thread/INFO] [FML]: Applying holder lookups
+[10:30:40] [Server thread/INFO] [FML]: Holder lookups applied
+[10:30:40] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@eb2cd15)
+[10:30:40] [Server thread/INFO] [minecraft/AdvancementList]: Loaded 488 advancements
+[10:30:40] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@eb2cd15)
+[10:30:40] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@eb2cd15)
+[10:30:40] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for level 0
+[10:30:41] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing spawn area: 12%
+[10:30:43] [Server thread/INFO] [FML]: Unloading dimension -1
+[10:30:43] [Server thread/INFO] [FML]: Unloading dimension 1
+[10:30:43] [Server thread/INFO] [minecraft/IntegratedServer]: Changing view distance to 12, from 10
+[10:30:43] [Server thread/INFO] [ionicinnovations]: Placing: 2478 blocks
+[10:30:43] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:43] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:43] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:43] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:44] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:44] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:44] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[10:30:44] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[10:30:44] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,cofhcore@4.5.3,FML@8.0.99.99,thermalexpansion@5.5.0,forge@14.23.4.2756,thermalfoundation@2.5.0,thermaldynamics@2.5.1,codechickenlib@3.2.1.351,redstoneflux@2.0.2,cofhworld@1.2.0,mcp@9.42,ionicinnovations@1.0.0
+[10:30:44] [Netty Server IO #1/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[10:30:44] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[10:30:44] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:44] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[10:30:44] [Server thread/INFO] [minecraft/PlayerList]: Player484[local:E:7b72f59a] logged in with entity id 393 at (-89.75100738782544, 79.69999998807907, 367.1017323259734)
+[10:30:44] [Server thread/INFO] [minecraft/MinecraftServer]: Player484 joined the game
+[10:30:44] [Server thread/INFO] [minecraft/MinecraftServer]: Player484 has made the advancement [Hot Stuff]
+[10:30:45] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:45] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:45] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:45] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:46] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[10:30:46] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[10:30:46] [main/INFO] [minecraft/GuiNewChat]: [CHAT] Player484 has made the advancement [Hot Stuff]
+[10:30:46] [main/INFO] [minecraft/AdvancementList]: Loaded 9 advancements
+[10:30:46] [pool-2-thread-1/WARN] [mojang/YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@6f064c10[id=29aa321a-1ce7-35de-bfab-f37fa4095c7d,name=Player484,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3181) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+[10:30:46] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:47] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:47] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:47] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:47] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:47] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:47] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:47] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:47] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:48] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:48] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[10:30:48] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[10:30:57] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:57] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:57] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[10:30:57] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[10:30:57] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:58] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:58] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:58] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:59] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:59] [Server thread/INFO] [ionicinnovations]: 0
+[10:30:59] [Server thread/INFO] [ionicinnovations]: 33286
+[10:30:59] [Server thread/INFO] [ionicinnovations]: 108532
+[10:30:59] [Server thread/INFO] [ionicinnovations]: 173754
+[10:31:00] [Server thread/INFO] [ionicinnovations]: 230226
+[10:31:00] [Server thread/INFO] [ionicinnovations]: 278992
+[10:31:00] [Server thread/INFO] [ionicinnovations]: 321189
+[10:31:00] [Server thread/INFO] [ionicinnovations]: 357540
+[10:31:01] [Server thread/INFO] [ionicinnovations]: 388875
+[10:31:01] [Server thread/INFO] [ionicinnovations]: 415874
+[10:31:01] [Server thread/INFO] [ionicinnovations]: 438904
+[10:31:01] [Server thread/INFO] [ionicinnovations]: 458634
+[10:31:02] [Server thread/INFO] [ionicinnovations]: 475288
+[10:31:02] [Server thread/INFO] [ionicinnovations]: 489389
+[10:31:02] [Server thread/INFO] [ionicinnovations]: 501087
+[10:31:02] [Server thread/INFO] [ionicinnovations]: 510688
+[10:31:03] [Server thread/INFO] [ionicinnovations]: 518339
+[10:31:03] [Server thread/INFO] [ionicinnovations]: 524355
+[10:31:03] [Server thread/INFO] [ionicinnovations]: 528925
+[10:31:03] [Server thread/INFO] [ionicinnovations]: 532115
+[10:31:04] [Server thread/INFO] [ionicinnovations]: 533948
+[10:31:04] [Server thread/INFO] [ionicinnovations]: 534655
+[10:31:04] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[10:31:04] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[10:31:14] [Server thread/INFO] [ionicinnovations]: 534324
+[10:31:15] [Server thread/INFO] [ionicinnovations]: 532986
+[10:31:15] [Server thread/INFO] [ionicinnovations]: 530704
+[10:31:15] [Server thread/INFO] [ionicinnovations]: 527640
+[10:31:15] [Server thread/INFO] [ionicinnovations]: 523741
+[10:31:16] [Server thread/INFO] [ionicinnovations]: 519076
+[10:31:16] [Server thread/INFO] [ionicinnovations]: 513680
+[10:31:16] [Server thread/INFO] [ionicinnovations]: 507612
+[10:31:16] [Server thread/INFO] [ionicinnovations]: 500799
+[10:31:17] [Server thread/INFO] [ionicinnovations]: 493440
+[10:31:17] [Server thread/INFO] [ionicinnovations]: 485405
+[10:31:17] [Server thread/INFO] [ionicinnovations]: 476785
+[10:31:17] [Server thread/INFO] [ionicinnovations]: 467597
+[10:31:18] [Server thread/INFO] [ionicinnovations]: 457727
+[10:31:18] [Server thread/INFO] [ionicinnovations]: 447314
+[10:31:18] [Server thread/INFO] [ionicinnovations]: 436416
+[10:31:18] [Server thread/INFO] [ionicinnovations]: 424991
+[10:31:19] [Server thread/INFO] [ionicinnovations]: 412948
+[10:31:19] [Server thread/INFO] [ionicinnovations]: 400341
+[10:31:19] [Server thread/INFO] [ionicinnovations]: 433624
+[10:31:19] [Server thread/INFO] [ionicinnovations]: 460982
+[10:31:20] [Server thread/INFO] [ionicinnovations]: 482880
+[10:31:20] [Server thread/INFO] [ionicinnovations]: 500106
+[10:31:20] [Server thread/INFO] [ionicinnovations]: 513125
+[10:31:20] [Server thread/INFO] [ionicinnovations]: 522362
+[10:31:21] [Server thread/INFO] [ionicinnovations]: 528239
+[10:31:21] [Server thread/INFO] [ionicinnovations]: 531105
+[10:31:21] [Server thread/INFO] [ionicinnovations]: 531339
+[10:31:21] [Server thread/INFO] [ionicinnovations]: 529061
+[10:31:22] [Server thread/INFO] [ionicinnovations]: 524632
+[10:31:22] [Server thread/INFO] [ionicinnovations]: 518210
+[10:31:22] [Server thread/INFO] [ionicinnovations]: 509900
+[10:31:22] [Server thread/INFO] [ionicinnovations]: 499912
+[10:31:23] [Server thread/INFO] [ionicinnovations]: 488438
+[10:31:23] [Server thread/INFO] [ionicinnovations]: 475551
+[10:31:23] [Server thread/INFO] [ionicinnovations]: 461509
+[10:31:23] [Server thread/INFO] [ionicinnovations]: 446231
+[10:31:24] [Server thread/INFO] [ionicinnovations]: 429850
+[10:31:24] [Server thread/INFO] [ionicinnovations]: 412441
+[10:31:24] [Server thread/INFO] [ionicinnovations]: 394068
+[10:31:24] [Server thread/INFO] [ionicinnovations]: 420377
+[10:31:25] [Server thread/INFO] [ionicinnovations]: 514432
+[10:31:25] [Server thread/INFO] [ionicinnovations]: 608012
+[10:31:25] [Server thread/INFO] [ionicinnovations]: 701067
+[10:31:25] [Server thread/INFO] [ionicinnovations]: 793697
+[10:31:26] [Server thread/INFO] [ionicinnovations]: 884574
+[10:31:26] [Server thread/INFO] [ionicinnovations]: 966566
+[10:31:26] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:26] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:27] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:27] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:27] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:27] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:28] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:28] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:28] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:28] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:29] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:29] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:29] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:29] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:30] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:30] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:30] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:30] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:31] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:31] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:31] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:31] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:32] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:32] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:32] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:32] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:33] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:33] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:33] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:33] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:34] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:34] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:34] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:34] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:35] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:31:35] [Server thread/INFO] [ionicinnovations]: 998850
+[10:31:35] [Server thread/INFO] [ionicinnovations]: 997294
+[10:31:35] [Server thread/INFO] [ionicinnovations]: 992571
+[10:31:36] [Server thread/INFO] [ionicinnovations]: 984835
+[10:31:36] [Server thread/INFO] [ionicinnovations]: 974297
+[10:31:36] [Server thread/INFO] [ionicinnovations]: 961083
+[10:31:36] [Server thread/INFO] [ionicinnovations]: 945350
+[10:31:37] [Server thread/INFO] [ionicinnovations]: 927224
+[10:31:37] [Server thread/INFO] [ionicinnovations]: 906943
+[10:31:37] [Server thread/INFO] [ionicinnovations]: 884607
+[10:31:37] [Server thread/INFO] [ionicinnovations]: 860261
+[10:31:38] [Server thread/INFO] [ionicinnovations]: 834013
+[10:31:38] [Server thread/INFO] [ionicinnovations]: 806247
+[10:31:38] [Server thread/INFO] [ionicinnovations]: 777310
+[10:31:38] [Server thread/INFO] [ionicinnovations]: 747302
+[10:31:39] [Server thread/INFO] [ionicinnovations]: 716303
+[10:31:39] [Server thread/INFO] [ionicinnovations]: 684387
+[10:31:39] [Server thread/INFO] [ionicinnovations]: 651621
+[10:31:39] [Server thread/INFO] [ionicinnovations]: 618070
+[10:31:40] [Server thread/INFO] [ionicinnovations]: 583792
+[10:31:40] [Server thread/INFO] [ionicinnovations]: 548838
+[10:31:40] [Server thread/INFO] [ionicinnovations]: 513229
+[10:31:40] [Server thread/INFO] [ionicinnovations]: 477002
+[10:31:41] [Server thread/INFO] [ionicinnovations]: 440204
+[10:31:41] [Server thread/INFO] [ionicinnovations]: 402876
+[10:31:41] [Server thread/INFO] [ionicinnovations]: 365057
+[10:31:41] [Server thread/INFO] [ionicinnovations]: 326785
+[10:31:42] [Server thread/INFO] [ionicinnovations]: 288093
+[10:31:42] [Server thread/INFO] [ionicinnovations]: 249013
+[10:31:42] [Server thread/INFO] [ionicinnovations]: 209566
+[10:31:42] [Server thread/INFO] [ionicinnovations]: 169747
+[10:31:43] [Server thread/INFO] [ionicinnovations]: 129579
+[10:31:43] [Server thread/INFO] [ionicinnovations]: 89087
+[10:31:43] [Server thread/INFO] [ionicinnovations]: 48296
+[10:31:43] [Server thread/INFO] [ionicinnovations]: 7228
+[10:31:44] [Server thread/INFO] [ionicinnovations]: 3176
+[10:31:44] [Server thread/INFO] [ionicinnovations]: 3130
+[10:31:44] [Server thread/INFO] [ionicinnovations]: 3087
+[10:31:44] [Server thread/INFO] [ionicinnovations]: 3048
+[10:31:45] [Server thread/INFO] [ionicinnovations]: 3012
+[10:31:45] [Server thread/INFO] [ionicinnovations]: 2978
+[10:31:45] [Server thread/INFO] [ionicinnovations]: 2947
+[10:31:45] [Server thread/INFO] [ionicinnovations]: 2918
+[10:31:46] [Server thread/INFO] [ionicinnovations]: 2891
+[10:31:46] [Server thread/INFO] [ionicinnovations]: 2867
+[10:31:46] [Server thread/INFO] [ionicinnovations]: 2844
+[10:31:46] [Server thread/INFO] [ionicinnovations]: 2822
+[10:31:47] [Server thread/INFO] [ionicinnovations]: 2803
+[10:31:47] [Server thread/INFO] [ionicinnovations]: 2785
+[10:31:47] [Server thread/INFO] [ionicinnovations]: 2768
+[10:31:47] [Server thread/INFO] [ionicinnovations]: 2752
+[10:31:48] [Server thread/INFO] [ionicinnovations]: 2738
+[10:31:48] [Server thread/INFO] [ionicinnovations]: 2725
+[10:31:48] [Server thread/INFO] [ionicinnovations]: 2713
+[10:31:48] [Server thread/INFO] [ionicinnovations]: 2701
+[10:31:49] [Server thread/INFO] [ionicinnovations]: 2691
+[10:31:49] [Server thread/INFO] [ionicinnovations]: 2681
+[10:31:49] [Server thread/INFO] [ionicinnovations]: 2672
+[10:31:49] [Server thread/INFO] [ionicinnovations]: 2664
+[10:31:50] [Server thread/INFO] [ionicinnovations]: 2656
+[10:31:50] [Server thread/INFO] [ionicinnovations]: 2649
+[10:31:50] [Server thread/INFO] [ionicinnovations]: 2642
+[10:31:50] [Server thread/INFO] [ionicinnovations]: 2636
+[10:31:51] [Server thread/INFO] [ionicinnovations]: 2630
+[10:31:51] [Server thread/INFO] [ionicinnovations]: 2625
+[10:31:51] [Server thread/INFO] [ionicinnovations]: 2620
+[10:31:51] [Server thread/INFO] [ionicinnovations]: 2616
+[10:31:52] [Server thread/INFO] [ionicinnovations]: 2612
+[10:31:52] [Server thread/INFO] [ionicinnovations]: 2608
+[10:31:52] [Server thread/INFO] [ionicinnovations]: 2604
+[10:31:52] [Server thread/INFO] [ionicinnovations]: 2601
+[10:31:53] [Server thread/INFO] [ionicinnovations]: 2598
+[10:31:53] [Server thread/INFO] [ionicinnovations]: 2595
+[10:31:53] [Server thread/INFO] [ionicinnovations]: 2592
+[10:31:53] [Server thread/INFO] [ionicinnovations]: 2590
+[10:31:54] [Server thread/INFO] [ionicinnovations]: 2588
+[10:31:54] [Server thread/INFO] [ionicinnovations]: 2586
+[10:31:54] [Server thread/INFO] [ionicinnovations]: 2584
+[10:31:54] [Server thread/INFO] [ionicinnovations]: 2582
+[10:31:55] [Server thread/INFO] [ionicinnovations]: 2580
+[10:31:55] [Server thread/INFO] [ionicinnovations]: 2579
+[10:31:55] [Server thread/INFO] [ionicinnovations]: 2577
+[10:31:55] [Server thread/INFO] [ionicinnovations]: 2576
+[10:31:56] [Server thread/INFO] [ionicinnovations]: 2575
+[10:31:56] [Server thread/INFO] [ionicinnovations]: 2574
+[10:31:56] [Server thread/INFO] [ionicinnovations]: 2573
+[10:31:56] [Server thread/INFO] [ionicinnovations]: 2572
+[10:31:57] [Server thread/INFO] [ionicinnovations]: 2571
+[10:31:57] [Server thread/INFO] [ionicinnovations]: 2570
+[10:31:57] [Server thread/INFO] [ionicinnovations]: 2569
+[10:31:57] [Server thread/INFO] [ionicinnovations]: 2569
+[10:31:58] [Server thread/INFO] [ionicinnovations]: 2568
+[10:31:58] [Server thread/INFO] [ionicinnovations]: 2567
+[10:31:58] [Server thread/INFO] [ionicinnovations]: 2567
+[10:31:58] [Server thread/INFO] [ionicinnovations]: 2566
+[10:31:59] [Server thread/INFO] [ionicinnovations]: 2566
+[10:31:59] [Server thread/INFO] [ionicinnovations]: 2565
+[10:31:59] [Server thread/INFO] [ionicinnovations]: 2565
+[10:31:59] [Server thread/INFO] [ionicinnovations]: 2565
+[10:32:00] [Server thread/INFO] [ionicinnovations]: 2564
+[10:32:00] [Server thread/INFO] [ionicinnovations]: 2564
+[10:32:00] [Server thread/INFO] [ionicinnovations]: 2564
+[10:32:00] [Server thread/INFO] [ionicinnovations]: 2563
+[10:32:01] [Server thread/INFO] [ionicinnovations]: 2563
+[10:32:01] [Server thread/INFO] [ionicinnovations]: 2563
+[10:32:01] [Server thread/INFO] [ionicinnovations]: 2563
+[10:32:01] [Server thread/INFO] [ionicinnovations]: 2562
+[10:32:02] [Server thread/INFO] [ionicinnovations]: 2562
+[10:32:02] [Server thread/INFO] [ionicinnovations]: 2562
+[10:32:02] [Server thread/INFO] [ionicinnovations]: 2562
+[10:32:02] [Server thread/INFO] [ionicinnovations]: 2562
+[10:32:03] [Server thread/INFO] [ionicinnovations]: 2562
+[10:32:03] [Server thread/INFO] [ionicinnovations]: 2562
+[10:32:03] [Server thread/INFO] [ionicinnovations]: 2561
+[10:32:03] [Server thread/INFO] [ionicinnovations]: 2561
+[10:32:04] [Server thread/INFO] [ionicinnovations]: 2561
+[10:32:04] [Server thread/INFO] [ionicinnovations]: 2561
+[10:32:04] [Server thread/INFO] [ionicinnovations]: 2561
+[10:32:04] [Server thread/INFO] [ionicinnovations]: 2561
+[10:32:05] [Server thread/INFO] [ionicinnovations]: 2561
+[10:32:05] [Server thread/INFO] [ionicinnovations]: 2561
+[10:32:05] [Server thread/INFO] [ionicinnovations]: 2561
+[10:32:05] [Server thread/INFO] [ionicinnovations]: 2561
+[10:32:06] [Server thread/INFO] [ionicinnovations]: 2561
+[10:32:06] [Server thread/INFO] [ionicinnovations]: 2561
+[10:32:06] [Server thread/INFO] [ionicinnovations]: 2561
+[10:32:06] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:07] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:07] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:07] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:07] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:08] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:08] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:08] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:08] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:09] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:09] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:09] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:09] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:10] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:10] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:10] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:10] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:11] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:11] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:11] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:11] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:12] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:12] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:12] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:12] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:13] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:13] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:13] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:13] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:14] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:14] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:14] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:14] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:15] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:15] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:15] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:15] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:16] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:16] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:16] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:16] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:17] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:17] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:17] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:17] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:18] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:18] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:18] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:18] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:19] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:19] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:19] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:19] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:20] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:20] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:20] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:20] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:21] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:21] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:21] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:21] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:22] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:22] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:22] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:22] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:23] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:23] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:23] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:23] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:24] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:24] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:24] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:24] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:25] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:25] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:25] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:25] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:26] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:26] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:26] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:26] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:27] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:27] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:27] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:27] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:28] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:28] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:28] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:28] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:29] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:29] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:29] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:29] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:30] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:30] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:30] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:30] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:31] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:31] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:31] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:31] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:32] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:32] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:32] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:32] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:33] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:33] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:33] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:33] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:34] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:34] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:34] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:34] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:35] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:35] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:35] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:35] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:36] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:36] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:36] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:36] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:37] [Server thread/INFO] [ionicinnovations]: 2570
+[10:32:37] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:40] [Server thread/INFO] [ionicinnovations]: Placing: 2478 blocks
+[10:32:41] [Server thread/INFO] [ionicinnovations]: 179200
+[10:32:41] [Server thread/INFO] [ionicinnovations]: 191580
+[10:32:41] [Server thread/INFO] [ionicinnovations]: 203410
+[10:32:41] [Server thread/INFO] [ionicinnovations]: 214790
+[10:32:42] [Server thread/INFO] [ionicinnovations]: 225695
+[10:32:42] [Server thread/INFO] [ionicinnovations]: 236150
+[10:32:42] [Server thread/INFO] [ionicinnovations]: 246030
+[10:32:42] [Server thread/INFO] [ionicinnovations]: 255435
+[10:32:43] [Server thread/INFO] [ionicinnovations]: 264290
+[10:32:43] [Server thread/INFO] [ionicinnovations]: 272720
+[10:32:43] [Server thread/INFO] [ionicinnovations]: 280550
+[10:32:43] [Server thread/INFO] [ionicinnovations]: 287955
+[10:32:44] [Server thread/INFO] [ionicinnovations]: 294885
+[10:32:44] [Server thread/INFO] [ionicinnovations]: 301365
+[10:32:44] [Server thread/INFO] [ionicinnovations]: 307220
+[10:32:44] [Server thread/INFO] [ionicinnovations]: 312675
+[10:32:45] [Server thread/INFO] [ionicinnovations]: 317530
+[10:32:45] [Server thread/INFO] [ionicinnovations]: 321910
+[10:32:45] [Server thread/INFO] [ionicinnovations]: 325790
+[10:32:45] [Server thread/INFO] [ionicinnovations]: 329120
+[10:32:46] [Server thread/INFO] [ionicinnovations]: 331975
+[10:32:46] [Server thread/INFO] [ionicinnovations]: 334330
+[10:32:46] [Server thread/INFO] [ionicinnovations]: 336210
+[10:32:46] [Server thread/INFO] [ionicinnovations]: 337590
+[10:32:47] [Server thread/INFO] [ionicinnovations]: 338470
+[10:32:47] [Server thread/INFO] [ionicinnovations]: 338850
+[10:32:47] [Server thread/INFO] [ionicinnovations]: 338730
+[10:32:47] [Server thread/INFO] [ionicinnovations]: 338060
+[10:32:48] [Server thread/INFO] [ionicinnovations]: 336940
+[10:32:48] [Server thread/INFO] [ionicinnovations]: 335320
+[10:32:48] [Server thread/INFO] [ionicinnovations]: 333250
+[10:32:48] [Server thread/INFO] [ionicinnovations]: 330655
+[10:32:49] [Server thread/INFO] [ionicinnovations]: 327510
+[10:32:49] [Server thread/INFO] [ionicinnovations]: 323840
+[10:32:49] [Server thread/INFO] [ionicinnovations]: 319695
+[10:32:49] [Server thread/INFO] [ionicinnovations]: 315075
+[10:32:50] [Server thread/INFO] [ionicinnovations]: 310055
+[10:32:50] [Server thread/INFO] [ionicinnovations]: 304410
+[10:32:50] [Server thread/INFO] [ionicinnovations]: 298315
+[10:32:50] [Server thread/INFO] [ionicinnovations]: 291720
+[10:32:51] [Server thread/INFO] [ionicinnovations]: 284550
+[10:32:51] [Server thread/INFO] [ionicinnovations]: 276980
+[10:32:51] [Server thread/INFO] [ionicinnovations]: 268860
+[10:32:51] [Server thread/INFO] [ionicinnovations]: 260215
+[10:32:52] [Server thread/INFO] [ionicinnovations]: 251120
+[10:32:52] [Server thread/INFO] [ionicinnovations]: 241525
+[10:32:52] [Server thread/INFO] [ionicinnovations]: 231455
+[10:32:52] [Server thread/INFO] [ionicinnovations]: 220810
+[10:32:53] [Server thread/INFO] [ionicinnovations]: 209765
+[10:32:53] [Server thread/INFO] [ionicinnovations]: 198120
+[10:32:53] [Server thread/INFO] [ionicinnovations]: 186025
+[10:32:53] [Server thread/INFO] [ionicinnovations]: 173430
+[10:32:54] [Server thread/INFO] [ionicinnovations]: 160260
+[10:32:54] [Server thread/INFO] [ionicinnovations]: 146665
+[10:32:54] [Server thread/INFO] [ionicinnovations]: 132520
+[10:32:54] [Server thread/INFO] [ionicinnovations]: 117900
+[10:32:55] [Server thread/INFO] [ionicinnovations]: 102730
+[10:32:55] [Server thread/INFO] [ionicinnovations]: 87160
+[10:32:55] [Server thread/INFO] [ionicinnovations]: 71090
+[10:32:55] [Server thread/INFO] [ionicinnovations]: 54520
+[10:32:56] [Server thread/INFO] [ionicinnovations]: 37325
+[10:32:56] [Server thread/INFO] [ionicinnovations]: 19730
+[10:32:56] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:56] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:57] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:57] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:57] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:57] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:58] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:58] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:58] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:58] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:59] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:59] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:59] [Server thread/INFO] [ionicinnovations]: 2560
+[10:32:59] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:00] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:00] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:00] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:00] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:01] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:01] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:01] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:01] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:02] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:02] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:02] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:02] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:03] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:03] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:03] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:03] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:04] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:04] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:04] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:04] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:05] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:05] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:05] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:05] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:06] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:06] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:06] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:06] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:07] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:07] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:07] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:07] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:08] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:08] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:08] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:08] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:09] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:09] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:09] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:09] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:10] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:10] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:10] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:10] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:11] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:11] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:11] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:11] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:12] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:12] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:12] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:12] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:13] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:13] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:13] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:13] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:14] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:14] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:14] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:14] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:15] [main/INFO] [minecraft/GuiNewChat]: [CHAT] ionicinnovations:creative_energy, ionicinnovations:field_manipulator
+[10:33:15] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:15] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:15] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:15] [Server thread/INFO] [minecraft/MinecraftServer]: [Player484: Given [tile.creative_energy.name] * 1 to Player484]
+[10:33:15] [main/INFO] [minecraft/GuiNewChat]: [CHAT] Given [tile.creative_energy.name] * 1 to Player484
+[10:33:15] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:16] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:16] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:16] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:16] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:17] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:17] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:17] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:17] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:18] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:18] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:18] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:18] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:19] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:19] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:19] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:19] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:20] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:20] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:20] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:20] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:21] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:21] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:21] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:21] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:22] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:22] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:22] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:22] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:23] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:23] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:23] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:23] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:24] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:24] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:24] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:24] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:25] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:25] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:25] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:25] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:26] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:26] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:26] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:26] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:27] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:27] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:27] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:27] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:28] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:28] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:28] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:28] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:29] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:29] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:29] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:29] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:30] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:30] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:30] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:30] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:31] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:31] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:31] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:31] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:32] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:32] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:32] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[10:33:32] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[10:33:33] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:33] [Server thread/INFO] [ionicinnovations]: 2560
+[10:33:33] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:33] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:34] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:34] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:34] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:34] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:35] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:35] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:35] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:35] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:36] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:36] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:36] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:36] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:37] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:37] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:37] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:37] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:38] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:38] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:38] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:38] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:39] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[10:33:39] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[10:33:41] [main/INFO] [ionicinnovations]: Updated FF to: 100, 100, 100
+[10:33:41] [Server thread/INFO] [ionicinnovations]: Placing: 60398 blocks
+[10:33:41] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:41] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:42] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:42] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:42] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:42] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:43] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:43] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:43] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:43] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:44] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:44] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:44] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:44] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:45] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:45] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:45] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:45] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:46] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:46] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:46] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:46] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:47] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:47] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:47] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:47] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:48] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:48] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:48] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:49] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:49] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:49] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:49] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:49] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:50] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:50] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:50] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:50] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:51] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:51] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:51] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:51] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:52] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:52] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:52] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:52] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:53] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:53] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:53] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:53] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:54] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:54] [Server thread/INFO] [ionicinnovations]: 1000000
+[10:33:54] [Server thread/INFO] [ionicinnovations]: 999957
+[10:33:54] [Server thread/INFO] [ionicinnovations]: 999695
+[10:33:55] [Server thread/INFO] [ionicinnovations]: 999470
+[10:33:55] [Server thread/INFO] [ionicinnovations]: 999256
+[10:33:55] [Server thread/INFO] [ionicinnovations]: 999053
+[10:33:55] [Server thread/INFO] [ionicinnovations]: 998759
+[10:33:56] [Server thread/INFO] [ionicinnovations]: 998574
+[10:33:56] [Server thread/INFO] [ionicinnovations]: 998397
+[10:33:56] [Server thread/INFO] [ionicinnovations]: 998178
+[10:33:57] [Server thread/INFO] [ionicinnovations]: 998041
+[10:33:57] [Server thread/INFO] [ionicinnovations]: 997785
+[10:33:57] [Server thread/INFO] [ionicinnovations]: 997611
+[10:33:57] [Server thread/INFO] [ionicinnovations]: 997417
+[10:33:57] [Server thread/INFO] [ionicinnovations]: 997303
+[10:33:58] [Server thread/INFO] [ionicinnovations]: 997144
+[10:33:58] [Server thread/INFO] [ionicinnovations]: 996989
+[10:33:58] [Server thread/INFO] [ionicinnovations]: 996888
+[10:33:58] [Server thread/INFO] [ionicinnovations]: 996741
+[10:33:59] [Server thread/INFO] [ionicinnovations]: 996623
+[10:33:59] [Server thread/INFO] [ionicinnovations]: 996483
+[10:33:59] [Server thread/INFO] [ionicinnovations]: 996421
+[10:33:59] [Server thread/INFO] [ionicinnovations]: 996311
+[10:34:00] [Server thread/INFO] [ionicinnovations]: 996155
+[10:34:00] [Server thread/INFO] [ionicinnovations]: 996025
+[10:34:00] [Server thread/INFO] [ionicinnovations]: 995898
+[10:34:01] [Server thread/INFO] [ionicinnovations]: 995823
+[10:34:01] [Server thread/INFO] [ionicinnovations]: 995699
+[10:34:01] [Server thread/INFO] [ionicinnovations]: 995628
+[10:34:01] [Server thread/INFO] [ionicinnovations]: 995508
+[10:34:01] [Server thread/INFO] [ionicinnovations]: 995464
+[10:34:02] [Server thread/INFO] [ionicinnovations]: 995347
+[10:34:02] [Server thread/INFO] [ionicinnovations]: 995331
+[10:34:02] [Server thread/INFO] [ionicinnovations]: 995192
+[10:34:02] [Server thread/INFO] [ionicinnovations]: 995053
+[10:34:03] [Server thread/INFO] [ionicinnovations]: 994941
+[10:34:03] [Server thread/INFO] [ionicinnovations]: 994904
+[10:34:03] [Server thread/INFO] [ionicinnovations]: 994843
+[10:34:03] [Server thread/INFO] [ionicinnovations]: 994758
+[10:34:04] [Server thread/INFO] [ionicinnovations]: 994574
+[10:34:04] [Server thread/INFO] [ionicinnovations]: 994416
+[10:34:04] [Server thread/INFO] [ionicinnovations]: 994333
+[10:34:04] [Server thread/INFO] [ionicinnovations]: 994250
+[10:34:05] [Server thread/INFO] [ionicinnovations]: 994169
+[10:34:05] [Server thread/INFO] [ionicinnovations]: 994087
+[10:34:05] [Server thread/INFO] [ionicinnovations]: 993957
+[10:34:05] [Server thread/INFO] [ionicinnovations]: 993876
+[10:34:06] [Server thread/INFO] [ionicinnovations]: 993821
+[10:34:06] [Server thread/INFO] [ionicinnovations]: 993692
+[10:34:06] [Server thread/INFO] [ionicinnovations]: 993613
+[10:34:06] [Server thread/INFO] [ionicinnovations]: 993509
+[10:34:07] [Server thread/INFO] [ionicinnovations]: 993430
+[10:34:07] [Server thread/INFO] [ionicinnovations]: 993327
+[10:34:07] [Server thread/INFO] [ionicinnovations]: 993274
+[10:34:07] [Server thread/INFO] [ionicinnovations]: 993171
+[10:34:08] [Server thread/INFO] [ionicinnovations]: 993043
+[10:34:08] [Server thread/INFO] [ionicinnovations]: 992916
+[10:34:08] [Server thread/INFO] [ionicinnovations]: 992838
+[10:34:08] [Server thread/INFO] [ionicinnovations]: 992711
+[10:34:09] [Server thread/INFO] [ionicinnovations]: 992684
+[10:34:09] [Server thread/INFO] [ionicinnovations]: 992607
+[10:34:09] [Server thread/INFO] [ionicinnovations]: 992556
+[10:34:09] [Server thread/INFO] [ionicinnovations]: 992429
+[10:34:10] [Server thread/INFO] [ionicinnovations]: 992178
+[10:34:10] [Server thread/INFO] [ionicinnovations]: 992101
+[10:34:10] [Server thread/INFO] [ionicinnovations]: 991975
+[10:34:10] [Server thread/INFO] [ionicinnovations]: 991849
+[10:34:11] [Server thread/INFO] [ionicinnovations]: 991648
+[10:34:11] [Server thread/INFO] [ionicinnovations]: 991472
+[10:34:11] [Server thread/INFO] [ionicinnovations]: 991346
+[10:34:11] [Server thread/INFO] [ionicinnovations]: 991245
+[10:34:12] [Server thread/INFO] [ionicinnovations]: 991170
+[10:34:12] [Server thread/INFO] [ionicinnovations]: 991069
+[10:34:12] [Server thread/INFO] [ionicinnovations]: 990968
+[10:34:12] [Server thread/INFO] [ionicinnovations]: 990918
+[10:34:13] [Server thread/INFO] [ionicinnovations]: 990817
+[10:34:13] [Server thread/INFO] [ionicinnovations]: 990691
+[10:34:13] [Server thread/INFO] [ionicinnovations]: 990491
+[10:34:13] [Server thread/INFO] [ionicinnovations]: 990391
+[10:34:14] [Server thread/INFO] [ionicinnovations]: 990290
+[10:34:14] [Server thread/INFO] [ionicinnovations]: 990215
+[10:34:14] [Server thread/INFO] [ionicinnovations]: 990064
+[10:34:14] [Server thread/INFO] [ionicinnovations]: 989964
+[10:34:15] [Server thread/INFO] [ionicinnovations]: 989889
+[10:34:15] [Server thread/INFO] [ionicinnovations]: 989788
+[10:34:15] [Server thread/INFO] [ionicinnovations]: 989638
+[10:34:15] [Server thread/INFO] [ionicinnovations]: 989588
+[10:34:16] [Server thread/INFO] [ionicinnovations]: 989463
+[10:34:16] [Server thread/INFO] [ionicinnovations]: 989338
+[10:34:16] [Server thread/INFO] [ionicinnovations]: 989262
+[10:34:17] [Server thread/INFO] [ionicinnovations]: 989187
+[10:34:17] [Server thread/INFO] [ionicinnovations]: 989062
+[10:34:17] [Server thread/INFO] [ionicinnovations]: 988962
+[10:34:17] [Server thread/INFO] [ionicinnovations]: 988812
+[10:34:17] [Server thread/INFO] [ionicinnovations]: 988737
+[10:34:18] [Server thread/INFO] [ionicinnovations]: 988686
+[10:34:18] [Server thread/INFO] [ionicinnovations]: 988486
+[10:34:18] [Server thread/INFO] [ionicinnovations]: 988386
+[10:34:18] [Server thread/INFO] [ionicinnovations]: 988211
+[10:34:19] [Server thread/INFO] [ionicinnovations]: 988061
+[10:34:19] [Server thread/INFO] [ionicinnovations]: 987936
+[10:34:19] [Server thread/INFO] [ionicinnovations]: 987786
+[10:34:19] [Server thread/INFO] [ionicinnovations]: 987686
+[10:34:20] [Server thread/INFO] [ionicinnovations]: 987636
+[10:34:20] [Server thread/INFO] [ionicinnovations]: 987461
+[10:34:20] [Server thread/INFO] [ionicinnovations]: 987411
+[10:34:20] [Server thread/INFO] [ionicinnovations]: 987336
+[10:34:21] [Server thread/INFO] [ionicinnovations]: 987261
+[10:34:21] [Server thread/INFO] [ionicinnovations]: 987135
+[10:34:21] [Server thread/INFO] [ionicinnovations]: 987010
+[10:34:21] [Server thread/INFO] [ionicinnovations]: 986835
+[10:34:22] [Server thread/INFO] [ionicinnovations]: 986685
+[10:34:22] [Server thread/INFO] [ionicinnovations]: 986610
+[10:34:22] [Server thread/INFO] [ionicinnovations]: 986435
+[10:34:22] [Server thread/INFO] [ionicinnovations]: 986385
+[10:34:23] [Server thread/INFO] [ionicinnovations]: 986235
+[10:34:23] [Server thread/INFO] [ionicinnovations]: 986035
+[10:34:23] [Server thread/INFO] [ionicinnovations]: 985935
+[10:34:23] [Server thread/INFO] [ionicinnovations]: 985760
+[10:34:24] [Server thread/INFO] [ionicinnovations]: 985635
+[10:34:24] [Server thread/INFO] [ionicinnovations]: 985385
+[10:34:24] [Server thread/INFO] [ionicinnovations]: 985260
+[10:34:24] [Server thread/INFO] [ionicinnovations]: 985210
+[10:34:25] [Server thread/INFO] [ionicinnovations]: 985110
+[10:34:25] [Server thread/INFO] [ionicinnovations]: 985060
+[10:34:25] [Server thread/INFO] [ionicinnovations]: 984985
+[10:34:26] [Server thread/INFO] [ionicinnovations]: 984810
+[10:34:26] [Server thread/INFO] [ionicinnovations]: 984660
+[10:34:26] [Server thread/INFO] [ionicinnovations]: 984635
+[10:34:26] [Server thread/INFO] [ionicinnovations]: 984585
+[10:34:26] [Server thread/INFO] [ionicinnovations]: 984560
+[10:34:27] [Server thread/INFO] [ionicinnovations]: 984510
+[10:34:27] [Server thread/INFO] [ionicinnovations]: 984385
+[10:34:27] [Server thread/INFO] [ionicinnovations]: 920925
+[10:34:27] [Server thread/INFO] [ionicinnovations]: 841255
+[10:34:28] [Server thread/INFO] [ionicinnovations]: 761135
+[10:34:28] [Server thread/INFO] [ionicinnovations]: 680515
+[10:34:28] [Server thread/INFO] [ionicinnovations]: 599470
+[10:34:28] [Server thread/INFO] [ionicinnovations]: 517850
+[10:34:29] [Server thread/INFO] [ionicinnovations]: 435705
+[10:34:29] [Server thread/INFO] [ionicinnovations]: 353060
+[10:34:29] [Server thread/INFO] [ionicinnovations]: 269915
+[10:34:29] [Server thread/INFO] [ionicinnovations]: 186220
+[10:34:30] [Server thread/INFO] [ionicinnovations]: 102100
+[10:34:30] [Server thread/INFO] [ionicinnovations]: 17430
+[10:34:30] [Server thread/INFO] [ionicinnovations]: 2560
+[10:34:30] [Server thread/INFO] [ionicinnovations]: 2560
+[10:34:31] [Server thread/INFO] [ionicinnovations]: 2560
+[10:34:31] [Server thread/INFO] [ionicinnovations]: 2560
+[10:34:31] [Server thread/INFO] [ionicinnovations]: 2560
+[10:34:31] [Server thread/INFO] [ionicinnovations]: 2560
+[10:34:32] [Server thread/INFO] [ionicinnovations]: 2560
+[10:34:32] [Server thread/INFO] [ionicinnovations]: 2560
+[10:34:32] [Server thread/INFO] [ionicinnovations]: 2560
+[10:34:32] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[10:34:32] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[10:34:33] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[10:34:33] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[10:34:33] [Server thread/INFO] [minecraft/NetHandlerPlayServer]: Player484 lost connection: Disconnected
+[10:34:33] [Server thread/INFO] [minecraft/MinecraftServer]: Player484 left the game
+[10:34:33] [Server thread/INFO] [minecraft/NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[10:34:33] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[10:34:33] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[10:34:33] [Server thread/INFO] [FML]: Unloading dimension 0
+[10:34:34] [Server thread/INFO] [FML]: Applying holder lookups
+[10:34:34] [Server thread/INFO] [FML]: Holder lookups applied
+[10:34:35] [main/INFO] [minecraft/Minecraft]: Stopping!
+[10:34:35] [main/INFO] [minecraft/SoundManager]: SoundSystem shutting down...
+[10:34:35] [main/WARN] [minecraft/SoundManager]: Author: Paul Lamb, www.paulscode.com
+
+BUILD SUCCESSFUL
+
+Total time: 5 mins 10.497 secs
