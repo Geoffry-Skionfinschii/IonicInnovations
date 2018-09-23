@@ -4,8 +4,12 @@
 		"model": "forge:fluid"
 	},
 	"variants": {
-	"custom": {
+	"normal": [
+		{
+			"custom": {
 				"fluid": "plasma"
 			}
 		}
+		]
+	}
 }
