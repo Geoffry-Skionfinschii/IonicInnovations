@@ -12,6 +12,7 @@ public class NetworkHandler {
 	
 	public static void initMessages() {
 		INSTANCE.registerMessage(MessageFieldManipulator.Handler.class, MessageFieldManipulator.class, netID++, Side.CLIENT);
-		INSTANCE.registerMessage(MessageFieldManipulator.Handler.class, MessageFieldManipulator.class, netID++, Side.SERVER);
+		INSTANCE.registerMessage(MessageSetFieldManipulator.Handler.class, MessageSetFieldManipulator.class, netID++, Side.SERVER);
+		INSTANCE.registerMessage(MessageUpdateFieldManipulator.Handler.class, MessageUpdateFieldManipulator.class, netID++, Side.CLIENT);
 	}
 }

@@ -61,6 +61,11 @@ public class NBTEnergyStorage extends EnergyStorage implements IEnergyStorage {
 		return this.capacity;
 	}
 
+	//Allows forced setting for clientside updates and such
+	public void setEnergyStored(int set) {
+		energy = Math.min(set, this.capacity);
+	}
+	
 	@Override
 	public boolean canExtract() {
 		return true;

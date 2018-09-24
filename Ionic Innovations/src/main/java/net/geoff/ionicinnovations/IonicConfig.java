@@ -10,9 +10,9 @@ public class IonicConfig {
 	
 	public static class FieldManipCategory {
 		@Name("Number of blocks to place each update")
-		public int blocksPerUpdate = 20;
+		public int blocksPerUpdate = 10;
 		@Name("Number of ticks (20 per second) per update")
-		public int ticksPerUpdate = 5;
+		public int ticksPerUpdate = 1;
 		@Name("Cost per new block (FE)")
 		public int costPerPlacement = 1;
 		@Name("Cost per tick per block")

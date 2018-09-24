@@ -9,6 +9,8 @@ import net.geoff.ionicinnovations.IonicInnovations;
 import net.geoff.ionicinnovations.blocks.IonicBlocks;
 import net.geoff.ionicinnovations.blocks.field.TileField;
 import net.geoff.ionicinnovations.energy.NBTEnergyStorage;
+import net.geoff.ionicinnovations.network.MessageUpdateFieldManipulator;
+import net.geoff.ionicinnovations.network.NetworkHandler;
 import net.minecraft.init.Blocks;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
@@ -17,10 +19,17 @@ import net.minecraft.util.ITickable;
 import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.energy.CapabilityEnergy;
+import net.minecraftforge.fml.common.network.NetworkRegistry.TargetPoint;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class TileFieldManipulator extends TileEntity implements ITickable {
 	
 	private NBTEnergyStorage energyStorage;
+	private int lastEnergy = 0;
+	
+	@SideOnly(Side.CLIENT)
+	public int clientEnergy;
 	
 	public boolean isGenerated = false;
 	public int xSize = 10;
@@ -141,13 +150,22 @@ public class TileFieldManipulator extends TileEntity implements ITickable {
 	@Override
 	public void update() {
 		if(!world.isRemote && world != null) {
-			//this.energyStorage.receiveEnergy(EnergyUtil.receiveEnergyFromAll(world, pos, this.energyStorage.getMaxReceive()), false);
+			if(lastEnergy != energyStorage.getEnergyStored()) {
+				lastEnergy = energyStorage.getEnergyStored();
+				//Send update to all players within 20 blocks
+				NetworkHandler.INSTANCE.sendToAllAround(new MessageUpdateFieldManipulator(this,this.pos), new TargetPoint(world.provider.getDimension(), 
+						this.pos.getX(), 
+						this.pos.getY(), 
+						this.pos.getZ(), 
+						10D
+						));
+			}
 			if(world.getTotalWorldTime() % ticksPerUpdate == 0 && isGenerated) {
 				if(isGenerated && blockList.size() == 0) {
 					//World reload, don't clean old blocks, just update cube shape.
 					generateForceField();
 				}
-				IonicInnovations.logger.info(this.energyStorage.getEnergyStored());
+				//IonicInnovations.logger.info(this.energyStorage.getEnergyStored());
 				int numChosen = 0;
 				Collections.shuffle(blockList);
 				for(BlockPos block : blockList) {

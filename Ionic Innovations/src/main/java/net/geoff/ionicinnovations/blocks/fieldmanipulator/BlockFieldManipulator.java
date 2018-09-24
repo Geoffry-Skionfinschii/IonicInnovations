@@ -39,7 +39,7 @@ public class BlockFieldManipulator extends BlockTileEntity<TileFieldManipulator>
 				//Toggle field
 				tile.setForceField(!tile.isGenerated);
 			} else {
-				NetworkHandler.INSTANCE.sendTo(new MessageFieldManipulator(tile.xSize,tile.ySize,tile.zSize,pos), (EntityPlayerMP) player);
+				NetworkHandler.INSTANCE.sendTo(new MessageFieldManipulator(tile,pos), (EntityPlayerMP) player);
 			}
 		}
 		return true;
